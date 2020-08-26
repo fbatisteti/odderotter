@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "OdderOtter.Client.dll": "sha256-iu4XSXTCvNLsrN+vXpWSifxPwUq3t5kPkKS\/AGp411Y=",
+      "OdderOtter.Client.dll": "sha256-+ER273ZexdnRV+gMwvmdlyS\/saHU5Ty13ynH6nKzaFk=",
       "System.Net.Http.Json.dll": "sha256-99dseBOagY3mzu5Y8Eqm8gRI+o8QbbCp7R2Ew9bQ+5E=",
       "System.Buffers.dll": "sha256-ZxXy75PYbzJxNfAc\/SAP1nUYm4gt1jSaOpFnBb9m85M=",
       "mscorlib.dll": "sha256-BaZPMj95+YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=",
@@ -48,7 +48,7 @@
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-bSgsT2x5xMvs8mara5wU+EJwcyHa9GVMU85HwhWcdWM=",
       "Microsoft.JSInterop.dll": "sha256-LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=",
       "Blazorise.Bootstrap.dll": "sha256-okC5XVUVhglJYarRu8Qkia35ZRSTrER64Vz2gR3+yCA=",
-      "OdderOtter.Shared.dll": "sha256-o9U\/X9NRJsNPHR2LRHvSgY2UwOcwpI8l522C7nWkgSU=",
+      "OdderOtter.Shared.dll": "sha256-eU9BbdOZCtYcN+NVs82ttvtb79CIb8SDp9lAdDOQOB8=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-FJ+rEgcx6ljTxwbRXZSUGfrDKpVvOxHCSfNxbnXNn3M=",
       "Microsoft.Extensions.DependencyInjection.dll": "sha256-oK1Bjv95fH+hSbogUkJE+xDAI203kJG6lL6Sm\/NuPWg=",
       "Microsoft.Extensions.Primitives.dll": "sha256-y\/FyJQOcW2TOcTp7Iuv8brGBzL5ZP0oJdG7ysK+gtKc=",
@@ -64,8 +64,8 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs="
     },
     "pdb": {
-      "OdderOtter.Client.pdb": "sha256-87cQ0MehbIPFQ5mkwgoUAGKXB+PSCfC9Ds4tAWVaMSM=",
-      "OdderOtter.Shared.pdb": "sha256-IPs9gjxRN4JFIL6ezsjBy08\/6aJqR5HufFrkIVcGSec="
+      "OdderOtter.Client.pdb": "sha256-0uuXa0i9H2I3dLj7vC3i2rBfXnaHqOs7hbaSC9WgUt4=",
+      "OdderOtter.Shared.pdb": "sha256-NsRM192BTxdX8Evts216+Bl8XratCZbhQgXIJqATKxI="
     },
     "runtime": {
       "dotnet.3.2.0.js": "sha256-mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=",

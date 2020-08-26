@@ -140,6 +140,39 @@
         }
       },
       {
+        "HashCode": 1217410822,
+        "Kind": "Components.Component",
+        "Name": "OdderOtter.Client.Pages.ToDoListBOOT",
+        "AssemblyName": "OdderOtter.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ToDoListBOOT"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "OdderOtter.Client.Pages.ToDoListBOOT"
+        }
+      },
+      {
+        "HashCode": -1544015576,
+        "Kind": "Components.Component",
+        "Name": "OdderOtter.Client.Pages.ToDoListBOOT",
+        "AssemblyName": "OdderOtter.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "OdderOtter.Client.Pages.ToDoListBOOT"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "OdderOtter.Client.Pages.ToDoListBOOT",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -734912600,
         "Kind": "Components.Component",
         "Name": "OdderOtter.Client.Pages.ToDoList",
@@ -269,39 +302,6 @@
         }
       },
       {
-        "HashCode": -577937065,
-        "Kind": "Components.Component",
-        "Name": "OdderOtter.Client.Shared.NavMenu",
-        "AssemblyName": "OdderOtter.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "OdderOtter.Client.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": -424842272,
-        "Kind": "Components.Component",
-        "Name": "OdderOtter.Client.Shared.NavMenu",
-        "AssemblyName": "OdderOtter.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "OdderOtter.Client.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "OdderOtter.Client.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 2094608376,
         "Kind": "Components.Component",
         "Name": "OdderOtter.Client.Shared.SurveyPrompt",
@@ -351,6 +351,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "OdderOtter.Client.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -577937065,
+        "Kind": "Components.Component",
+        "Name": "OdderOtter.Client.Shared.NavMenu",
+        "AssemblyName": "OdderOtter.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "OdderOtter.Client.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -424842272,
+        "Kind": "Components.Component",
+        "Name": "OdderOtter.Client.Shared.NavMenu",
+        "AssemblyName": "OdderOtter.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "OdderOtter.Client.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "OdderOtter.Client.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -57215,6 +57248,11 @@
     {
       "FilePath": "d:\\Projetos\\OdderOtter\\Client\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "d:\\Projetos\\OdderOtter\\Client\\Pages\\ToDoListBOOT.razor",
+      "TargetPath": "Pages\\ToDoListBOOT.razor",
       "FileKind": "component"
     },
     {

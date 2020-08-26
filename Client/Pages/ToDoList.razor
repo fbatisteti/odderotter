@@ -58,8 +58,18 @@
     private string task;
     private Boolean jobDone;
 
-    private IList<ToDoThing> list = new List<ToDoThing>();
+    // starts the list with a single entry for the fun
+    private IList<ToDoThing> list = new List<ToDoThing>()
+    {
+        new ToDoThing
+        (
+            DateTime.Now,
+            "Start a \"To do\" list",
+            true
+        )
+    };
 
+    // add an entry to the list
     private void addEntry()
     {
         // if the text input has something, adds to the list
@@ -72,5 +82,6 @@
         }
     }
 
+    // changing from true to false and false to true
     private void completed() => jobDone = !jobDone;
 }

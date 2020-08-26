@@ -81,7 +81,7 @@
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-iu4XSXTCvNLsrN+vXpWSifxPwUq3t5kPkKS\/AGp411Y=",
+      "hash": "sha256-+ER273ZexdnRV+gMwvmdlyS\/saHU5Ty13ynH6nKzaFk=",
       "url": "_framework\/_bin\/OdderOtter.Client.dll"
     },
     {
@@ -249,7 +249,7 @@
       "url": "_framework\/_bin\/Blazorise.Bootstrap.dll"
     },
     {
-      "hash": "sha256-o9U\/X9NRJsNPHR2LRHvSgY2UwOcwpI8l522C7nWkgSU=",
+      "hash": "sha256-eU9BbdOZCtYcN+NVs82ttvtb79CIb8SDp9lAdDOQOB8=",
       "url": "_framework\/_bin\/OdderOtter.Shared.dll"
     },
     {
@@ -305,11 +305,11 @@
       "url": "_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-87cQ0MehbIPFQ5mkwgoUAGKXB+PSCfC9Ds4tAWVaMSM=",
+      "hash": "sha256-0uuXa0i9H2I3dLj7vC3i2rBfXnaHqOs7hbaSC9WgUt4=",
       "url": "_framework\/_bin\/OdderOtter.Client.pdb"
     },
     {
-      "hash": "sha256-IPs9gjxRN4JFIL6ezsjBy08\/6aJqR5HufFrkIVcGSec=",
+      "hash": "sha256-NsRM192BTxdX8Evts216+Bl8XratCZbhQgXIJqATKxI=",
       "url": "_framework\/_bin\/OdderOtter.Shared.pdb"
     },
     {
@@ -329,9 +329,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-tpWWfERHKTwZqES6pdAfu\/1XtLOrEu9HHEF5nE16Exw=",
+      "hash": "sha256-tuQQ7o8e5KwMll1gf2bi+SpwLHeIFDcmwGo3ukmNhsc=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "vYG6teXu"
+  "version": "HIuBqpPB"
 };

@@ -1,0 +1,79 @@
+@page "/todolistboot"
+
+<div class="jumbotron bg-light">
+
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="What are you to do?" @bind-value="task">
+        <div class="input-group-append">
+            <button class="btn btn-dark" type="button" @onclick="addEntry">It shall be done!</button>
+        </div>
+    </div>
+
+    <hr class="my-4">
+
+    <blockquote class="blockquote text-center">
+        <p class="mb-0">"You may delay, but time will not."</p>
+        <footer class="blockquote-footer">Benjamin Franklin</footer>
+    </blockquote>
+
+    <hr class="my-4">
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col-2">Added on</th>
+                <th scope="col-9">You should...</th>
+                <th scope="col-1">Done?</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var entry in list)
+            {
+                <tr>
+                    <th scope="row">
+                        @entry.timestamp
+                    </th>
+                    <td>
+                        @entry.task
+                    </td>
+                    <td>
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" class="custom-control-input" id=@entry.timestamp @bind-value="@entry.done"  @onclick="completed">
+                        </div>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+
+</div>
+
+@code
+{
+    private string task;
+    private Boolean jobDone;
+
+    private IList<ToDoThing> list = new List<ToDoThing>()
+    {
+        new ToDoThing
+        (
+            DateTime.Now,
+            "Start a \"To do\" list",
+            true
+        )
+    };
+
+    private void addEntry()
+    {
+        if (!string.IsNullOrWhiteSpace(task))
+        {
+            list.Add(new ToDoThing(DateTime.Now, task));
+
+            task = string.Empty;
+        }
+    }
+
+    private void completed() => jobDone = !jobDone;
+}
