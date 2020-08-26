@@ -140,39 +140,6 @@
         }
       },
       {
-        "HashCode": 1217410822,
-        "Kind": "Components.Component",
-        "Name": "OdderOtter.Client.Pages.ToDoListBOOT",
-        "AssemblyName": "OdderOtter.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ToDoListBOOT"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "OdderOtter.Client.Pages.ToDoListBOOT"
-        }
-      },
-      {
-        "HashCode": -1544015576,
-        "Kind": "Components.Component",
-        "Name": "OdderOtter.Client.Pages.ToDoListBOOT",
-        "AssemblyName": "OdderOtter.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "OdderOtter.Client.Pages.ToDoListBOOT"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "OdderOtter.Client.Pages.ToDoListBOOT",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -734912600,
         "Kind": "Components.Component",
         "Name": "OdderOtter.Client.Pages.ToDoList",
@@ -202,6 +169,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "OdderOtter.Client.Pages.ToDoList",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1217410822,
+        "Kind": "Components.Component",
+        "Name": "OdderOtter.Client.Pages.ToDoListBOOT",
+        "AssemblyName": "OdderOtter.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ToDoListBOOT"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "OdderOtter.Client.Pages.ToDoListBOOT"
+        }
+      },
+      {
+        "HashCode": -1544015576,
+        "Kind": "Components.Component",
+        "Name": "OdderOtter.Client.Pages.ToDoListBOOT",
+        "AssemblyName": "OdderOtter.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "OdderOtter.Client.Pages.ToDoListBOOT"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "OdderOtter.Client.Pages.ToDoListBOOT",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

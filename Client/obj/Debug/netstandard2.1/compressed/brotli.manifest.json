@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\_ER273ZexdnRV_gMwvmdlyS-saHU5Ty13ynH6nKzaFk=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\QpA9K4qqjUGrOIWjapdTnV0wtwCwJKl7IneIo7wQqUk=.hash",
       "Source": "D:\\Projetos\\OdderOtter\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\OdderOtter.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/OdderOtter.Client.dll.br"
     },
@@ -281,7 +281,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\0uuXa0i9H2I3dLj7vC3i2rBfXnaHqOs7hbaSC9WgUt4=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Tr-F836hzOZTGHgx5zbY3UuhrEGO6Rnkdzy4q3sQUTw=.hash",
       "Source": "D:\\Projetos\\OdderOtter\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\OdderOtter.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/OdderOtter.Client.pdb.br"
     },
@@ -311,12 +311,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\tuQQ7o8e5KwMll1gf2bi_SpwLHeIFDcmwGo3ukmNhsc=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\2BjCKT6LZxMWAeU4ZsGM1NBjnOyAIwnn81TscuUEmSM=.hash",
       "Source": "D:\\Projetos\\OdderOtter\\client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\uJrwRTpK7QrMefThCsm4riGf72zNBej9y3ePeJFYuUU=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\1LQudLPK9Adx173mU1Hu9Txy6vrbKWY54BRe-XC9D4o=.hash",
       "Source": "D:\\Projetos\\OdderOtter\\client\\obj\\Debug\\netstandard2.1\\blazor\\service-worker-assets.js",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\service-worker-assets.js.br"
     }

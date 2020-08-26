@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "OdderOtter.Client.dll": "sha256-+ER273ZexdnRV+gMwvmdlyS\/saHU5Ty13ynH6nKzaFk=",
+      "OdderOtter.Client.dll": "sha256-QpA9K4qqjUGrOIWjapdTnV0wtwCwJKl7IneIo7wQqUk=",
       "System.Net.Http.Json.dll": "sha256-99dseBOagY3mzu5Y8Eqm8gRI+o8QbbCp7R2Ew9bQ+5E=",
       "System.Buffers.dll": "sha256-ZxXy75PYbzJxNfAc\/SAP1nUYm4gt1jSaOpFnBb9m85M=",
       "mscorlib.dll": "sha256-BaZPMj95+YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=",
@@ -64,7 +64,7 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs="
     },
     "pdb": {
-      "OdderOtter.Client.pdb": "sha256-0uuXa0i9H2I3dLj7vC3i2rBfXnaHqOs7hbaSC9WgUt4=",
+      "OdderOtter.Client.pdb": "sha256-Tr\/F836hzOZTGHgx5zbY3UuhrEGO6Rnkdzy4q3sQUTw=",
       "OdderOtter.Shared.pdb": "sha256-NsRM192BTxdX8Evts216+Bl8XratCZbhQgXIJqATKxI="
     },
     "runtime": {
