@@ -1,0 +1,76 @@
+@page "/todolist"
+
+<Jumbotron Background="Background.Light" Margin="Margin.Is4.FromBottom">
+    <Addons>
+        <Addon AddonType="AddonType.Body">
+            <TextEdit Placeholder="What are you to do?" @bind-Text="task"/>
+        </Addon>
+        <Addon AddonType="AddonType.End">
+            <Button Color="Color.Secondary" @onclick="addEntry">It shall be done!</Button>
+        </Addon>
+    </Addons>
+    
+    <Divider></Divider>
+    
+    <JumbotronSubtitle class="text-center">
+        <b>
+            "You may delay, but time will not."
+        </b>
+    </JumbotronSubtitle>
+    <Paragraph class="text-right text-muted" style="opacity: 0.5;">
+        -- Benjamin Franklin
+    </Paragraph>
+
+    <Divider></Divider>
+    
+    <Table Hoverable="true">
+        <TableHeader>
+            <TableRow>
+                <TableHeaderCell>Added on</TableHeaderCell>
+                <TableHeaderCell>You should...</TableHeaderCell>
+                <TableHeaderCell>Done?</TableHeaderCell>
+            </TableRow>
+        </TableHeader>
+        <TableBody>
+
+            @foreach (var entry in list)
+            {
+                <TableRow>
+                    <TableRowHeader>
+                        @entry.timestamp
+                    </TableRowHeader>
+                    <TableRowCell>
+                        @entry.task
+                    </TableRowCell>
+                    <TableRowCell>
+                        <Switch TValue="bool" @bind-Checked="@entry.done"  @onclick="completed" />
+                    </TableRowCell>
+                </TableRow>
+            }
+            
+        </TableBody>
+    </Table>
+
+</Jumbotron>
+
+@code
+{
+    private string task;
+    private Boolean jobDone;
+
+    private IList<ToDoThing> list = new List<ToDoThing>();
+
+    private void addEntry()
+    {
+        // if the text input has something, adds to the list
+        if (!string.IsNullOrWhiteSpace(task))
+        {
+            list.Add(new ToDoThing(DateTime.Now, task));
+
+            // resets the text input
+            task = string.Empty;
+        }
+    }
+
+    private void completed() => jobDone = !jobDone;
+}

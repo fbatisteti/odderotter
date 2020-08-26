@@ -1,0 +1,9 @@
+D:\Projetos\OdderOtter\Shared\bin\Debug\netstandard2.1\OdderOtter.Shared.deps.json
+D:\Projetos\OdderOtter\Shared\bin\Debug\netstandard2.1\OdderOtter.Shared.dll
+D:\Projetos\OdderOtter\Shared\bin\Debug\netstandard2.1\OdderOtter.Shared.pdb
+D:\Projetos\OdderOtter\Shared\obj\Debug\netstandard2.1\OdderOtter.Shared.csprojAssemblyReference.cache
+D:\Projetos\OdderOtter\Shared\obj\Debug\netstandard2.1\OdderOtter.Shared.AssemblyInfoInputs.cache
+D:\Projetos\OdderOtter\Shared\obj\Debug\netstandard2.1\OdderOtter.Shared.AssemblyInfo.cs
+D:\Projetos\OdderOtter\Shared\obj\Debug\netstandard2.1\OdderOtter.Shared.csproj.CoreCompileInputs.cache
+D:\Projetos\OdderOtter\Shared\obj\Debug\netstandard2.1\OdderOtter.Shared.dll
+D:\Projetos\OdderOtter\Shared\obj\Debug\netstandard2.1\OdderOtter.Shared.pdb
